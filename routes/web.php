@@ -35,7 +35,7 @@ Route::post('/admin-panel', ['as' => 'user.check', 'uses' => 'backend\UserContro
         Route::post('/sitecategory-update/{id}', ['as' => 'sitecategory.update', 'uses' => 'ProductController@categoryupdate']);
         Route::delete('/sitecategory-delete/{id}', ['as' => 'site.category.delete', 'uses' => 'ProductController@categorydestroy']);
         Route::get('/siteproduct-list', ['as' => 'site.product.list', 'uses' => 'ProductController@index']);
-        Route::delete('/siteproduct-delete/{id}', ['as' => 'site.product.delete', 'uses' => 'ProductController@destroy']);
+        Route::get('/siteproduct-delete/{id}', ['as' => 'site.product.delete', 'uses' => 'ProductController@destroy']);
         Route::get('/product-edit/{id}', ['as' => 'site.product.edit', 'uses' => 'ProductController@edit']);
         Route::post('/siteproduct-update/{id}', ['as' => 'site.product.update', 'uses' => 'ProductController@update']);
 
