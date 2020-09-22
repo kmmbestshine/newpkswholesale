@@ -26,7 +26,7 @@
                     </p>
                 </div>
                 <div class="card-footer">
-                    <strong>${{ $product->price }}</strong> &nbsp;
+                    <strong>Rs.{{ $product->price }}</strong> &nbsp;
                     
                     
                 </div>
