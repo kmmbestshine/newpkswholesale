@@ -50,7 +50,7 @@
     </tbody>
 </table>
 <br>
-<p>prepared by:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time: date("h:i:sa");</p>
+<p>prepared by:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time: {{date("h:i:sa")}}</p>
 <p align="center">Thank You</p>
 </body></html>
 
