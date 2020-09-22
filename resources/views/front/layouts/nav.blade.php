@@ -20,7 +20,7 @@
                     
                     
                 </li>
-                <li class="nav-item dropdown">
+               {{-- <li class="nav-item dropdown">
                     <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-user"></i> {{ auth()->check() ? auth()->user()->name : 'Account' }}
@@ -35,7 +35,7 @@
                             <a class="dropdown-item" href="{{  url('user/logout') }}"><i class="fa fa-lock"></i> Logout</a>
                         @endif
                     </div>
-                </li>
+                </li>--}}
             </ul>
         </div>
     </div>
