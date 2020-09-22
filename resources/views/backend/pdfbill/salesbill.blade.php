@@ -11,7 +11,7 @@
 <p align="center">PH: 95-666-20401</p>
 <p align="center">PAN No: </p>
 <hr>
-<p>Date: date("d-m-Y"); </p>
+<p>Date: {{date("d-m-Y")}} </p>
 <hr>
 <table border="0" align="center">
     <thead>
