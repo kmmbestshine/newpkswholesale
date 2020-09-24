@@ -47,7 +47,7 @@
                 <!-- sidebar menu -->
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
-                        <h3>General</h3>
+                        <h3>Inventory-Billing Management</h3>
                         <ul class="nav side-menu">
                             @php
                              $user = Auth::user();
@@ -61,7 +61,7 @@
                 </div>
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
-                        <h3>Website</h3>
+                        <h3>Website Management</h3>
                         <ul class="nav side-menu">
                            {{-- <li>
                                 <a href="{{ url('/admin') }}">
